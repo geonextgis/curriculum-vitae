@@ -41,3 +41,17 @@
   description: Discontinued (dropout)
   thesis: ''
   awards: ''
+- degree: Doctor of Agricultural Sciences (Dr. agr.)
+  university: '[University of Bonn](https://www.uni-bonn.de/)'
+  city: Bonn, Germany
+  start: Oct. 2026
+  end: Present
+  description: Research conducted at the Leibniz Centre for Agricultural Landscape Research (ZALF), Germany.
+  research_focus: Landscape-scale agroecosystem modelling, spatial and temporal landscape
+    dynamics, crop productivity, and resilience.
+  research_question: How can spatial and temporal landscape information be represented and
+    integrated into agroecosystem models to improve the understanding and prediction of
+    crop productivity and resilience across scales?
+  supervisor: Prof. Dr. Frank Ewert
+  thesis: ''
+  awards: ''

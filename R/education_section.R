@@ -14,6 +14,15 @@ education_section <- function(
       if ("description" %in% include_sections && !is_blank(x$description)) {
         clean_text(x$description)
       },
+      if (!is_blank(x$research_focus)) {
+        paste0("Research focus: ", clean_text(x$research_focus))
+      },
+      if (!is_blank(x$research_question)) {
+        paste0("Research question: *", clean_text(x$research_question), "*")
+      },
+      if (!is_blank(x$supervisor)) {
+        paste0("Supervisor: ", clean_text(x$supervisor))
+      },
       if ("thesis" %in% include_sections && !is_blank(x$thesis)) {
         paste0("Thesis: *", clean_text(x$thesis), "*")
       },
