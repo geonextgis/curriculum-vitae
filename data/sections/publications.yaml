@@ -2,84 +2,84 @@
 - title: Application of bagging and boosting ensemble machine learning techniques for groundwater potential mapping in a drought-prone agriculture region of eastern India
   authors: Halder, K., Srivastava, A. K., et al.
   year: '2024'
-  journal: 'Environmental Sciences Europe (IF: 7.1; Q1)'
+  journal: Environmental Sciences Europe
   doi: https://link.springer.com/article/10.1186/s12302-024-00981-y
   data_url: ''
   code_url: ''
 - title: SAR-driven flood inventory and multi-factor ensemble susceptibility modelling using Machine Learning Frameworks
   authors: Halder, K., Ghosh, A., et al.
   year: '2024'
-  journal: 'Geomatics, Natural Hazards and Risk (IF: 4.9; Q1)'
+  journal: Geomatics, Natural Hazards and Risk
   doi: https://doi.org/10.1080/19475705.2024.2409202
   data_url: ''
   code_url: ''
 - title: 'Dynamic Modelling of Mixed Crop-Livestock Systems: A Case Study of Climate Change Impacts in sub-Saharan Africa'
   authors: Srivastava, A. K., Rahimi, J., Alsafadi, K., Vianna, M., Enders, A., Zheng, W., Demircan, A., Dieng, M. D. B., Salack, S., Faye, B., Singh, M., Halder, K., et al.
   year: '2025'
-  journal: 'Scientific Reports (IF: 4.9; Q1)'
+  journal: Scientific Reports
   doi: https://www.nature.com/articles/s41598-024-81986-8
   data_url: ''
   code_url: ''
 - title: 'Highlighting the role of traditional paddy for sustainable agriculture and livelihood: issues, policy intervention and the pathways'
   authors: Patra, S., Saha, A., Pal, S. C., Islam, A. R. M. T., Halder, K., et al.
   year: '2025'
-  journal: 'Discover Sustainability (IF: 5.2; Q1)'
+  journal: Discover Sustainability
   doi: https://doi.org/10.1007/s43621-025-00989-1
   data_url: ''
   code_url: ''
 - title: Improving landslide susceptibility prediction through ensemble Recursive Feature Elimination and meta-learning framework
   authors: Halder, K., Srivastava, A. K., et al.
   year: '2025'
-  journal: 'Scientific Reports (IF: 4.9; Q1)'
+  journal: Scientific Reports
   doi: https://www.nature.com/articles/s41598-025-87587-3
   data_url: ''
   code_url: ''
 - title: High-Resolution Maize Yield Mapping across Africa using Earth Observation and Machine Learning, Deep Learning, and Foundation Model
   authors: Halder, K., Ewert, F., et al.
   year: '2025'
-  journal: 'Science of Remote Sensing (IF: 7.1; Q1)'
+  journal: Science of Remote Sensing
   doi: https://doi.org/10.1016/j.srs.2025.100344
   data_url: ''
   code_url: ''
 - title: 'Propagation patterns of different degree meteorological droughts across the Yangtze River Basin: a three-dimensional drought feature identification approach with Copula modeling'
   authors: Xing, L., Zhao, R., Sun, H., Tan, Z., Fang, Q., Li, M., Halder, K., et al.
   year: '2025'
-  journal: 'Journal of Hydrology (IF: 7.3; Q1)'
+  journal: Journal of Hydrology
   doi: https://doi.org/10.1016/j.jhydrol.2025.133857
   data_url: ''
   code_url: ''
 - title: A robust and scalable crop mapping framework using advanced machine learning and optical and SAR imageries
   authors: Halder, K., Srivastava, A. K., et al.
   year: '2025'
-  journal: 'Smart Agricultural Technology (IF: 7.1; Q1)'
+  journal: Smart Agricultural Technology
   doi: https://doi.org/10.1016/j.atech.2025.101354
   data_url: ''
   code_url: ''
 - title: 'Enhancing landslide susceptibility mapping in the Himalayas: geospatial and machine learning with explainable AI'
   authors: Utthasini, M., Ilampooranan, I., Singh, S. K., Kanga, S., Kumar, P., Halder, K., et al.
   year: '2025'
-  journal: 'Gondwana Research (IF: 8.9; Q1)'
+  journal: Gondwana Research
   doi: https://doi.org/10.1016/j.gr.2025.08.003
   data_url: ''
   code_url: ''
 - title: A machine learning framework for modeling and upscaling mangrove carbon productivity (ML-MCP)
   authors: Alsafadi, K., Srivastava, A. K., Halder, K., et al.
   year: '2025'
-  journal: 'Agricultural and Forest Meteorology (IF: 6.6; Q1)'
+  journal: Agricultural and Forest Meteorology
   doi: https://doi.org/10.1016/j.agrformet.2025.110821
   data_url: ''
   code_url: ''
 - title: 'AgriPINN: A process-informed neural network for interpretable and scalable crop biomass prediction under water stress'
   authors: Shi, Y., Srivastava, A. K., Behrend, D., Gaiser, T., Thuy, N. H., Zhang, X., Sobeih, T., Ewert, F., Halder, K., Han, L.
   year: '2026'
-  journal: 'Smart Agricultural Technology (IF: 7.1; Q1)'
+  journal: Smart Agricultural Technology
   doi: https://doi.org/10.1016/j.atech.2026.102539
   data_url: ''
   code_url: ''
 - title: 'CropFusionNet: an interpretable deep learning framework for uncertainty-aware crop yield forecasting across Germany'
   authors: Srivastava, A. K., Halder, K., et al.
   year: '2026'
-  journal: 'Artificial Intelligence in Agriculture (IF: 16.1; Q1)'
+  journal: Artificial Intelligence in Agriculture
   doi: https://doi.org/10.1016/j.aiia.2026.08.016
   data_url: ''
   code_url: https://github.com/geonextgis/CropFusionNet

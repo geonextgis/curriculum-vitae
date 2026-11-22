@@ -63,6 +63,7 @@ repository settings, set **Pages → Source** to **GitHub Actions**.
 | `awards.yaml` | Research Projects |
 | `packages.yaml` | Open-Source Projects |
 | `publications.yaml` | Publications (`Halder, K.` is underlined) |
+| `journals.yaml` | Impact Factor + quartile per journal, used by every publication in it. Update once a year after the new JCR release (June). |
 | `presentations.yaml`, `events.yaml` | Presentations, Workshops & Training |
 | `achievements.yaml` | Awards & Achievements |
 | `languages.yaml` | Spoken languages (section disabled in `cv.qmd` until filled) |

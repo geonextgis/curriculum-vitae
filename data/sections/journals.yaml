@@ -1,0 +1,51 @@
+# Journal metrics used by the Publications section, keyed by the exact
+# `journal:` name in publications.yaml. Update once a year when Clarivate
+# releases the Journal Citation Reports (usually in June): change
+# `impact_factor`, `quartile` and `jcr_year`, then push. Every publication
+# in that journal updates automatically.
+#
+# `jcr_year` is the JCR edition the values come from (e.g. 2024). When set,
+# the CV shows "IF 2024: 7.1"; leave it blank to show "IF: 7.1".
+# Leave `impact_factor` blank to hide the metrics for a journal.
+jcr_year: ''
+journals:
+  Agricultural and Forest Meteorology:
+    issn: 0168-1923
+    impact_factor: '6.6'
+    quartile: Q1
+  Artificial Intelligence in Agriculture:
+    issn: 2589-7217
+    impact_factor: '16.1'
+    quartile: Q1
+  Discover Sustainability:
+    issn: 2662-9984
+    impact_factor: '5.2'
+    quartile: Q1
+  Environmental Sciences Europe:
+    issn: 2190-4715
+    impact_factor: '7.1'
+    quartile: Q1
+  Geomatics, Natural Hazards and Risk:
+    issn: 1947-5705
+    impact_factor: '4.9'
+    quartile: Q1
+  Gondwana Research:
+    issn: 1342-937X
+    impact_factor: '8.9'
+    quartile: Q1
+  Journal of Hydrology:
+    issn: 0022-1694
+    impact_factor: '7.3'
+    quartile: Q1
+  Science of Remote Sensing:
+    issn: 2666-0172
+    impact_factor: '7.1'
+    quartile: Q1
+  Scientific Reports:
+    issn: 2045-2322
+    impact_factor: '4.9'
+    quartile: Q1
+  Smart Agricultural Technology:
+    issn: 2772-3755
+    impact_factor: '7.1'
+    quartile: Q1

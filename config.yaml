@@ -38,3 +38,4 @@ sections:
   posters: "posters.yaml"
   packages: "packages.yaml"
   achievements: "achievements.yaml"
+  journals: "journals.yaml"
