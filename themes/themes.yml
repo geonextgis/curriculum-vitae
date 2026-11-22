@@ -99,3 +99,25 @@ themes:
     sidebar-label:   forest
     sidebar-link:    ink
     sidebar-muted:   ink-faint
+
+  # Pure white page with a very light neutral sidebar. Same brand fonts
+  # and forest/burnt accents, no cream tint.
+  white:
+    page-bg:         "#FFFFFF"
+    sidebar-bg:      "#F5F6F5"
+    text:            "#4A4A4A"
+    heading:         "#1F1F1F"
+    primary:         forest
+    accent:          burnt
+    date:            forest
+    muted:           "#8A8A8A"
+    rule:            "#1F1F1F1F"
+    link:            forest
+    link-hover:      burnt
+    dot:             forest
+    dot-ring:        "#FFFFFF"
+    sidebar-text:    "#1F1F1F"
+    sidebar-heading: forest
+    sidebar-label:   forest
+    sidebar-link:    "#1F1F1F"
+    sidebar-muted:   "#8A8A8A"

@@ -8,10 +8,10 @@
 cv_data_repo: ""
 cv_data_branch: "main"
 
-# Visual theme. One of: warm | forest | subtle
+# Visual theme. One of: white | warm | forest | subtle
 # Override at render time without editing this file via the CV_THEME env var,
 # e.g. CV_THEME=forest. Themes are defined in themes/themes.yml (see README).
-theme: subtle
+theme: white
 
 # Local fallback settings
 use_local_fallback: true
