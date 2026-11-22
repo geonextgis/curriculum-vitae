@@ -1,37 +1,39 @@
 # Research projects (shown in the "Grants & Funding"-style section). Oldest first.
-- name: 'AgML: Machine learning for agricultural modelling'
-  institute: ''
-  city: ''
+- name: "AgML: Machine learning for agricultural modelling"
+  institute: ""
+  city: ""
   date: Jan. 2024 – Present
-  description: ''
+  description: ""
   url: https://www.agml.org/
   link_type: website
-- name: 'SynPAI: Synergising Process-Based and Machine Learning Models for Accurate and
-    Explainable Crop Yield Prediction along with Environmental Impact Assessment'
+- name:
+    "SynPAI: Synergising Process-Based and Machine Learning Models for Accurate and
+    Explainable Crop Yield Prediction along with Environmental Impact Assessment"
   institute: Funded by the Biotechnology and Biological Sciences Research Council (BBSRC)
-  city: ''
+  city: ""
   date: Feb. 2024 – Present
-  description: ''
+  description: ""
   url: https://synpaim.wordpress.com/news/
   link_type: website
-- name: 'LL SYSTAIN: Leibniz-Lab Systemic Sustainability'
+- name: "LL SYSTAIN: Leibniz-Lab Systemic Sustainability"
   institute: Funded by the Leibniz Association
-  city: ''
+  city: ""
   date: Jan. 2025 – Present
   description: Biodiversity, Climate, Agriculture and Food within Planetary Boundaries.
   url: https://www.ll-systain.org/
   link_type: website
-- name: 'AgMIP: Agricultural Model Intercomparison and Improvement Project'
+- name: "AgMIP: Agricultural Model Intercomparison and Improvement Project"
   institute: Leibniz Centre for Agricultural Landscape Research (ZALF), Germany
-  city: ''
+  city: ""
   date: Apr. 2026 – Present
-  description: ''
+  description: ""
   url: https://agmip.org/
   link_type: website
-- name: 'SUSTAINCrop: Knowledge Exchange for Assessing Environmental Impacts of Crop
-    Production in Bio-Based Industrial Systems'
-  institute: Funded by the European Union under Horizon Europe (grant agreement 101288599)
-  city: ''
+- name:
+    "SUSTAINCrop: Knowledge Exchange for Assessing Environmental Impacts of Crop
+    Production in Bio-Based Industrial Systems"
+  institute: Funded by the European Union under Horizon Europe
+  city: ""
   date: Jul. 2026 – Present
   description: Coordination and Support Action with ZALF, Germany, as a consortium partner.
   url: https://cordis.europa.eu/project/id/101288599
