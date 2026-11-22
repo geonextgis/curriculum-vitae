@@ -1,0 +1,63 @@
+# Simple workflow for deploying static content to GitHub Pages
+name: Deploy CV to Pages
+
+on:
+  workflow_dispatch:
+  push:
+    branches: main
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  # Single deploy job since we're just deploying
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Setup Pages
+        uses: actions/configure-pages@v4 #gets github page to update
+      - uses: r-lib/actions/setup-r@v2 #sets up r
+      - uses: r-lib/actions/setup-r-dependencies@v2 #sets up r packages and their dependencies
+        with:
+          packages: |
+            any::yaml
+            any::knitr
+            any::rmarkdown
+      - uses: quarto-dev/quarto-actions/setup@v2 #sets up Quarto (bundles Pandoc + Typst)
+
+      - name: Download brand fonts for the PDF
+        run: |
+          # Typst needs the font files; they are not committed (see .gitignore)
+          mkdir -p fonts
+          curl -sSfL -o satoshi.zip https://api.fontshare.com/v2/fonts/download/satoshi
+          unzip -q -j satoshi.zip 'Satoshi_Complete/Fonts/OTF/*.otf' -d fonts
+          rm satoshi.zip
+          for style in Regular Italic Medium MediumItalic SemiBold Bold BoldItalic; do
+            curl -sSfL -o "fonts/Spectral-$style.ttf" \
+              "https://github.com/google/fonts/raw/main/ofl/spectral/Spectral-$style.ttf"
+          done
+          ls fonts
+
+      - name: Render CV to HTML and PDF
+        run: quarto render
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '_output'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

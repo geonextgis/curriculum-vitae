@@ -1,0 +1,38 @@
+- subject: Python
+  level: languages
+- subject: SQL
+  level: languages
+- subject: JavaScript
+  level: languages
+- subject: R
+  level: languages
+- subject: Google Earth Engine
+  level: technologies
+- subject: PyTorch
+  level: technologies
+- subject: TensorFlow
+  level: technologies
+- subject: Scikit-learn
+  level: technologies
+- subject: Git
+  level: technologies
+- subject: GitHub
+  level: technologies
+- subject: Machine Learning
+  level: methodologies
+- subject: Deep Learning
+  level: methodologies
+- subject: Geospatial Analysis
+  level: methodologies
+- subject: Image Processing
+  level: methodologies
+- subject: Statistical Analysis
+  level: methodologies
+- subject: ArcGIS Pro
+  level: software
+- subject: QGIS
+  level: software
+- subject: Photoshop
+  level: software
+- subject: Adobe Illustrator
+  level: software

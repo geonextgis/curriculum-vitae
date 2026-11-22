@@ -1,0 +1,60 @@
+#' Read CV data from remote YAML files
+#' @description
+#' This function reads CV data from separate YAML files hosted on GitHub.
+#' @param github_repo The GitHub repository in format "username/repo-name"
+#' @param branch The branch to read from (default: "main")
+#' @param section The section to read (e.g., "contact", "experience", "publications")
+#' @return The parsed YAML data for the specified section
+read_cv_data_remote <- function(github_repo, section, branch = "main") {
+  # No data repository configured: read data/sections/<section>.yaml directly
+  if (is.null(github_repo) || !nzchar(trimws(github_repo))) {
+    config <- yaml::read_yaml("config.yaml")
+    local_file <- paste0(config$local_data_dir, "/", section, ".yaml")
+    message("📁 Loading '", section, "' from ", local_file)
+    return(yaml::read_yaml(local_file))
+  }
+
+  # Construct the raw GitHub URL
+  base_url <- paste0(
+    "https://raw.githubusercontent.com/",
+    github_repo,
+    "/",
+    branch,
+    "/"
+  )
+  file_url <- paste0(base_url, section, ".yaml")
+
+  tryCatch(
+    {
+      # Try to read from GitHub
+      message("📡 Loading '", section, "' from GitHub...")
+      data <- yaml::read_yaml(file_url)
+      message("✅ Success: '", section, "' loaded from remote")
+      data
+    },
+    error = function(e) {
+      # Fallback to local file if GitHub fails
+      config <- yaml::read_yaml("config.yaml")
+      local_file <- paste0(config$local_data_dir, "/", section, ".yaml")
+      if (file.exists(local_file)) {
+        message("⚠️  GitHub failed for '", section, "' - using local fallback")
+        message("   📁 Local file: ", local_file)
+        yaml::read_yaml(local_file)
+      } else {
+        stop(
+          "❌ CRITICAL: Could not read '",
+          section,
+          "' from GitHub and no local fallback found.\n",
+          "   🌐 GitHub URL: ",
+          file_url,
+          "\n",
+          "   📁 Local file checked: ",
+          local_file,
+          "\n",
+          "   💥 Error: ",
+          e$message
+        )
+      }
+    }
+  )
+}

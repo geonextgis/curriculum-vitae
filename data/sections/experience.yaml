@@ -1,0 +1,27 @@
+# Newest first
+- position: Research Scientist
+  institute: Leibniz Centre for Agricultural Landscape Research (ZALF)
+  city: Müncheberg, Brandenburg, Germany
+  start: Jan. 2025
+  end: Present
+  activities: Working within the Research Platform *Simulation and Data Science*, under the
+    Working Group *Multi-Scale Modelling and Forecasting (MSM)*, contributing to the
+    Leibniz-Lab Systemic Sustainability (LL SYSTAIN) project. Developing machine learning
+    workflows for multi-scale crop yield forecasting and scenario analysis integrating
+    climate, soil, and biodiversity indicators. Applying geospatial data science techniques
+    to process and harmonize large Earth observation and agricultural datasets (Sentinel,
+    MODIS, soil grids). Collaborating with interdisciplinary teams to co-design sustainability
+    indicators linking agricultural productivity and ecological resilience.
+- position: Remote Intern
+  institute: Institute of Crop Science and Resource Conservation (INRES)
+  city: University of Bonn, Germany
+  start: Feb. 2023
+  end: Feb. 2024
+  activities: Developed and validated ML/DL-based models (XGBoost, CNNs) for regional and
+    continental-scale crop yield prediction using satellite-derived vegetation indices and
+    climate data. Performed phenological and climate feature extraction using Google Earth
+    Engine (GEE), Python (NumPy, Pandas, Scikit-learn), and TensorFlow for time-series
+    analysis. Processed multi-terabyte Earth observation datasets via cloud computing
+    platforms to derive agricultural insights and optimize model input features. Authored
+    comprehensive technical reports and visualized key results using Python (Matplotlib,
+    Plotly), contributing to publications on data-driven agricultural sustainability.

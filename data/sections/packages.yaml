@@ -1,0 +1,13 @@
+# Open-source projects. Oldest first.
+- name: CropFusionNet
+  year: ''
+  description: An interpretable deep learning framework for probabilistic crop yield forecasting.
+  url: https://github.com/geonextgis/CropFusionNet
+  link_type: github
+  docs_url: ''
+- name: TorchCrop
+  year: ''
+  description: A PyTorch-native library for hybrid crop modeling.
+  url: https://github.com/geonextgis/torchcrop
+  link_type: github
+  docs_url: https://geonextgis.github.io/torchcrop/
